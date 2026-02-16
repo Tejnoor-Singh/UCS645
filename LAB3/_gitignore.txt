@@ -1,0 +1,22 @@
+# ===== Build artifacts =====
+correlate
+*.o
+*.out
+*.exe
+
+# ===== Profiling & performance data =====
+gmon.out
+perf.data
+perf.data.old
+perf_output_*.txt
+
+# ===== OS / environment specific =====
+.wsl/
+*.wslconfig
+WSL2-Linux-Kernel/
+
+# ===== Editor & temp files =====
+*.log
+*.tmp
+*~
+.DS_Store
